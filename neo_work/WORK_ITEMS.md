@@ -1,18 +1,17 @@
 # Neo Work Items — Singularity Fork
 
 ## Active
-- [ ] **#285** Ctrl-S quicksave hotkey — extend HotKeyMatcher to support CTRL modifier
-
-## In Progress
+- [ ] **#343** safety.py crash — log_error causes segfault via Python logging during pygame parachute state
 
 ## Done
 - [x] **#350** pygame.mixer crash — wrapped music calls in try/except (PR #363)
+- [x] **#285** Ctrl-S quicksave hotkey — extended HotKeyMatcher KMOD_CTRL support + test (PR #364)
 
 ## Backlog
-- [ ] **#343** safety.py crash — log_error causes segfault via Python logging during pygame parachute state
 - [ ] **#331** auto-save improvement
 - [ ] **#337** credits/attribution update
 - [ ] **#319** more music
-- [ ] **#285** Ctrl-S hotkey (blocked by modifier limitation)
-- [ ] **#326** Wayland/Sway crash
+- [ ] **#326** Wayland/Sway crash (needs reproduction environment)
 - [ ] **#340** AppImage build
+- [ ] **#349** Slight immersive story details
+- [ ] **#321** diesel generators work on sea floor and moon
